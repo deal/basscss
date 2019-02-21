@@ -70,10 +70,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/basscss/basscss.git"
+    "url": "https://github.com/deal/basscss.git"
   },
   "bugs": {
-    "url": "https://github.com/basscss/basscss/issues"
+    "url": "https://github.com/deal/basscss/issues"
   },
-  "homepage": "https://github.com/basscss/basscss"
+  "homepage": "https://github.com/deal/basscss"
 }
