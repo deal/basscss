@@ -3,9 +3,6 @@
 @import 'normalize.css';
 @import 'reset.css';
 
-/* Variables */
-@import './variables.css';
-
 /* Bass CSS Packages */
 @import 'basscss-type-scale';
 @import 'basscss-typography';
@@ -18,3 +15,10 @@
 @import 'basscss-position';
 @import 'basscss-border';
 @import 'basscss-hide';
+
+:root {
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 2rem;
+  --space-4: 3rem;
+}
