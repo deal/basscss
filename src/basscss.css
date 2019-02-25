@@ -1,5 +1,8 @@
 /*! Basscss | http://basscss.com | MIT License */
 
+@import 'basscss-base-reset';
+@import 'normalize.css';
+
 @import 'basscss-type-scale';
 @import 'basscss-typography';
 @import 'basscss-layout';
@@ -16,3 +19,23 @@
 @value space-2: 1rem;
 @value space-3: 2rem;
 @value space-4: 3rem;
+
+a {
+  text-decoration: none;
+}
+
+:any-link {
+  text-decoration: none;
+}
+
+:-webkit-any-link {
+  text-decoration: none;
+}
+
+:-moz-any-link {
+  text-decoration: none;
+}
+
+form {
+  margin: 0;
+}
