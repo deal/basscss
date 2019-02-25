@@ -2,8 +2,18 @@
   "name": "basscss",
   "version": "8.0.10",
   "description": "Low-level CSS toolkit",
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "repository": "https://github.com/deal/basscss.git",
+  "bugs": {
+    "url": "https://github.com/deal/basscss/issues"
+  },
+  "homepage": "https://github.com/deal/basscss",
   "style": "src/basscss.css",
   "main": "src/basscss.css",
+  "files": [
+    "src"
+  ],
   "scripts": {
     "build": "postcss src/basscss.css -d css --config postcss.config.js",
     "minify": "postcss css/basscss.css -u cssnano -o css/basscss.min.css --no-map",
@@ -12,8 +22,11 @@
     "important:min": "postcss css/basscss.css -u postcss-importantly -u cssnano -o css/basscss-important.min.css",
     "custom-props": "postcss src/basscss.css -u postcss-import -u postcss-custom-media -o css/basscss-cp.css",
     "custom-props:min": "postcss src/basscss.css -u postcss-import -u postcss-custom-media -u cssnano -o css/basscss-cp.min.css",
-    "prepare": "mkdir -p css && npm run build && npm run important && npm run custom-props && npm run minify && npm run important:min && npm run custom-props:min",
+    "prepare": "mkdir -p css && yarn run build && yarn run important && yarn run custom-props && yarn run minify && yarn run important:min && yarn run custom-props:min",
     "start": "postcss src/basscss.css -d css --config postcss.config.js -w"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
     "basscss-align": "^1.0.2",
@@ -57,23 +70,5 @@
     "semantic-release": "^15.13.3",
     "style-loader": "^0.20.2",
     "webpack": "^3.11.0"
-  },
-  "author": "Brent Jackson",
-  "license": "MIT",
-  "keywords": [
-    "atomic css",
-    "functional css",
-    "css",
-    "framework",
-    "oocss",
-    "basscss"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/deal/basscss.git"
-  },
-  "bugs": {
-    "url": "https://github.com/deal/basscss/issues"
-  },
-  "homepage": "https://github.com/deal/basscss"
+  }
 }
