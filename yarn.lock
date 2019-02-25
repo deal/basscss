@@ -1085,6 +1085,11 @@ basscss-align@^1.0.2:
   resolved "https://registry.yarnpkg.com/basscss-align/-/basscss-align-1.0.2.tgz#294aa689d6f99da86e4af4c5c2892870855c1c37"
   integrity sha1-KUqmidb5nahuSvTFwokocIVcHDc=
 
+basscss-base-reset@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/basscss-base-reset/-/basscss-base-reset-2.0.3.tgz#592716179e497e0b4e7c9add1f1c4c34017c572d"
+  integrity sha1-WScWF55JfgtOfJrdHxxMNAF8Vy0=
+
 basscss-border@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/basscss-border/-/basscss-border-4.0.2.tgz#14b4506329b90cb14abe5f4d3473e9fe9202df2e"
@@ -4982,6 +4987,11 @@ normalize-url@^4.0.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-4.1.0.tgz#307e74c87473efa81969ad1b4bb91f1990178904"
   integrity sha512-X781mkWeK6PDMAZJfGn/wnwil4dV6pIdF9euiNqtA89uJvZuNDJO2YyJxiwpPhTQcF5pYUU1v+kcOxzYV6rZlA==
+
+normalize.css@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/normalize.css/-/normalize.css-8.0.1.tgz#9b98a208738b9cc2634caacbc42d131c97487bf3"
+  integrity sha512-qizSNPO93t1YUuUhP22btGOo3chcvDFqFaj2TRybP0DMxkHOCTYwp3n34fel4a31ORXy4m1Xq0Gyqpb5m33qIg==
 
 npm-audit-report@^1.3.1:
   version "1.3.2"
