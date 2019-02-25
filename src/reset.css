@@ -1,0 +1,19 @@
+a {
+  text-decoration: none;
+}
+
+:any-link {
+  text-decoration: none;
+}
+
+:-webkit-any-link {
+  text-decoration: none;
+}
+
+:-moz-any-link {
+  text-decoration: none;
+}
+
+form {
+  margin: 0;
+}

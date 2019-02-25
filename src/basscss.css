@@ -1,8 +1,8 @@
-/*! Basscss | http://basscss.com | MIT License */
-
+/* Reset Packages */
 @import 'basscss-base-reset';
 @import 'normalize.css';
 
+/* Bass CSS Packages */
 @import 'basscss-type-scale';
 @import 'basscss-typography';
 @import 'basscss-layout';
@@ -15,27 +15,8 @@
 @import 'basscss-border';
 @import 'basscss-hide';
 
-@value space-1: 0.5rem;
-@value space-2: 1rem;
-@value space-3: 2rem;
-@value space-4: 3rem;
+/* Variables Packages */
+@import './variables.css';
 
-a {
-  text-decoration: none;
-}
-
-:any-link {
-  text-decoration: none;
-}
-
-:-webkit-any-link {
-  text-decoration: none;
-}
-
-:-moz-any-link {
-  text-decoration: none;
-}
-
-form {
-  margin: 0;
-}
+/* Fonts */
+@import './fonts.css';
