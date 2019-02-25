@@ -1,10 +1,10 @@
 {
-  "name": "basscss",
+  "name": "@deal/basscss",
   "version": "8.0.10",
   "description": "Low-level CSS toolkit",
   "author": "Brent Jackson",
   "license": "MIT",
-  "repository": "https://github.com/deal/basscss.git",
+  "repository": "git@github.com:deal/basscss.git",
   "bugs": {
     "url": "https://github.com/deal/basscss/issues"
   },
