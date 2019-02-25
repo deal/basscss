@@ -6086,13 +6086,6 @@ postcss-reduce-transforms@^1.0.3:
     postcss "^5.0.8"
     postcss-value-parser "^3.0.1"
 
-postcss-remove-root@0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/postcss-remove-root/-/postcss-remove-root-0.0.2.tgz#19d4f385d106442b03c2b78d64aa3a6d6757646d"
-  integrity sha1-GdTzhdEGRCsDwreNZKo6bWdXZG0=
-  dependencies:
-    postcss "^5.0.13"
-
 postcss-replace-overflow-wrap@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/postcss-replace-overflow-wrap/-/postcss-replace-overflow-wrap-3.0.0.tgz#61b360ffdaedca84c7c918d2b0f0d0ea559ab01c"

@@ -15,7 +15,7 @@
   ],
   "scripts": {
     "build": "postcss src/basscss.css -d css --config postcss.config.js",
-    "minify": "postcss css/basscss.css -u cssnano -o css/basscss.min.css --no-map",
+    "minify": "postcss css/basscss.css -u cssnano -o css/basscss.min.css --no-map ",
     "semantic-release": "semantic-release",
     "prepare": "mkdir -p css && yarn run build && yarn run minify",
     "start": "postcss src/basscss.css -d css --config postcss.config.js -w"
@@ -60,7 +60,6 @@
     "postcss-import": "^11.1.0",
     "postcss-loader": "^2.1.0",
     "postcss-preset-env": "^6.5.0",
-    "postcss-remove-root": "0.0.2",
     "postcss-reporter": "^5.0.0",
     "prettier": "^1.16.4",
     "semantic-release": "^15.13.3",

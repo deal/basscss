@@ -8,7 +8,6 @@ module.exports = {
     require('postcss-reporter')(),
     require('postcss-custom-properties')(),
     require('postcss-discard-comments')(),
-    require('postcss-remove-root')(),
     require('autoprefixer')(),
     require('postcss-preset-env')({
       // default is stage 2, but we need this due to nesting @media queries inside classes
