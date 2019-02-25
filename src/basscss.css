@@ -1,6 +1,10 @@
 /* Reset Packages */
 @import 'basscss-base-reset';
 @import 'normalize.css';
+@import 'reset.css';
+
+/* Variables */
+@import './variables.css';
 
 /* Bass CSS Packages */
 @import 'basscss-type-scale';
@@ -14,6 +18,3 @@
 @import 'basscss-position';
 @import 'basscss-border';
 @import 'basscss-hide';
-
-/* Variables */
-@import './variables.css';
