@@ -22,7 +22,7 @@
     "important:min": "postcss css/basscss.css -u postcss-importantly -u cssnano -o css/basscss-important.min.css",
     "custom-props": "postcss src/basscss.css -u postcss-import -u postcss-custom-media -o css/basscss-cp.css",
     "custom-props:min": "postcss src/basscss.css -u postcss-import -u postcss-custom-media -u cssnano -o css/basscss-cp.min.css",
-    "prepare": "mkdir -p css && yarn run build && yarn run important && yarn run custom-props && yarn run minify && yarn run important:min && yarn run custom-props:min",
+    "prepare": "mkdir -p css && yarn && yarn run build && yarn run important && yarn run custom-props && yarn run minify && yarn run important:min && yarn run custom-props:min",
     "start": "postcss src/basscss.css -d css --config postcss.config.js -w"
   },
   "publishConfig": {
