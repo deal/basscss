@@ -20,7 +20,7 @@ stages:
 
 .yarn_install:
   before_script: &yarn_install
-    - echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}' > .npmrc
+    - echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN_RO}' > .npmrc
     - yarn config set cache-folder .yarn
     - yarn install --frozen-lockfile
 
