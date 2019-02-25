@@ -15,8 +15,5 @@
 @import 'basscss-border';
 @import 'basscss-hide';
 
-/* Variables Packages */
+/* Variables */
 @import './variables.css';
-
-/* Fonts */
-@import './fonts.css';
