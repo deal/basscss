@@ -9,10 +9,9 @@
     "url": "https://github.com/deal/basscss/issues"
   },
   "homepage": "https://github.com/deal/basscss",
-  "style": "src/basscss.css",
-  "main": "src/basscss.css",
+  "main": "css/basscss.min.css",
   "files": [
-    "src"
+    "css"
   ],
   "scripts": {
     "build": "postcss src/basscss.css -d css --config postcss.config.js",
