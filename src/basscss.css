@@ -12,3 +12,7 @@
 @import 'basscss-border';
 @import 'basscss-hide';
 
+@value space-1: 0.5rem;
+@value space-2: 1rem;
+@value space-3: 2rem;
+@value space-4: 3rem;
