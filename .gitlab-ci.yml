@@ -3,9 +3,6 @@
 #
 image: node:9.11.2
 
-variables:
- NPM_TOKEN: '0e8fa2db-a78e-4f82-a456-cd747c172ca8'
-
 stages:
   - setup
   - execute
