@@ -18,7 +18,8 @@
     "minify": "postcss css/basscss.css -u cssnano -o css/basscss.min.css --no-map ",
     "semantic-release": "semantic-release",
     "prepare": "mkdir -p css && yarn run build && yarn run minify",
-    "start": "postcss src/basscss.css -d css --config postcss.config.js -w"
+    "start": "postcss src/basscss.css -d css --config postcss.config.js -w",
+    "watch": "nodemon --exec 'yalc publish && yalc push' --watch src/ -e tsx,ts"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
@@ -50,6 +51,7 @@
     "css-mixed-properties": "^1.1.0",
     "cssnano": "^3.4.0",
     "json-loader": "^0.5.4",
+    "nodemon": "^1.18.10",
     "postcss": "^6.0.19",
     "postcss-calc": "^6.0.1",
     "postcss-cli": "^5.0.0",
@@ -60,6 +62,7 @@
     "postcss-import": "^11.1.0",
     "postcss-loader": "^2.1.0",
     "postcss-preset-env": "^6.5.0",
+    "postcss-pseudo-class-any-link": "^6.0.0",
     "postcss-reporter": "^5.0.0",
     "prettier": "^1.16.4",
     "semantic-release": "^15.13.3",

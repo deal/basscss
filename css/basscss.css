@@ -152,22 +152,7 @@ template{
 a{
   text-decoration:none;
 }
-:-webkit-any-link{
-  text-decoration:none;
-}
-:-moz-any-link{
-  text-decoration:none;
-}
 :link,:visited{
-  text-decoration:none;
-}
-:-webkit-any-link{
-  text-decoration:none;
-}
-:-moz-any-link{
-  text-decoration:none;
-}
-:any-link{
   text-decoration:none;
 }
 :-webkit-any-link{
